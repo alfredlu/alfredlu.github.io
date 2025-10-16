@@ -88,5 +88,5 @@ function loadTitle(div_name = "title-container") {
         "</table>"
     ].join("\n")
     const container = document.getElementById(div_name);
-    if (container) container.innerHTML = html;
+    if (container) container.innerHTML = html_txt;
 }
