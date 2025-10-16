@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<news>
+
+<entry>
+<time>2021.09</time> 
+<event>start my another role in UAES XE BU as senior manager</event>
+</entry>
+
+<entry>
+<time>2021.08</time> 
+<event>away passed my grandma</event>
+</entry>
+
+<entry>
+<time>2020.01</time>
+<event>a paper about predicting MSI status from pathlogic image is accepted by ISBI2020</event>
+<links>
+<name>MSI</name>
+<to>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3423729/</to>
+<name>ISBI2020</name>
+<to>http://2020.biomedicalimaging.org/</to>
+</links> 
+</entry>
+
+<entry>
+<time>2019.12</time>
+<event>a paper about a new network pruning method is accepted by ICMLC2020</event>
+<links>
+<name>ICMLC2020</name>
+<to>http://www.icmlc.org/</to>
+</links>
+</entry>
+
+<entry>
+<time>2019.09</time>
+<event>a paper about a new boundary constraint loss for semantic segmentation is accepted by JMIHI</event>
+<links>
+<name>paper</name>
+<to>http://alfredlu.users.sourceforge.net/doc/Lu2019-BCLoss.pdf</to>
+<name>JMIHI</name>
+<to>http://www.aspbs.com/jmihi.html</to>
+</links>
+</entry>
+
+<entry>
+<time>2019.08</time>
+<event>join UAES as chief AI scientist</event> 
+</entry>
+
+<entry>
+<time>2018.09</time>
+<event>join Tencent AI Lab</event> 
+</entry>
+
+<entry>
+<time>2018.09</time> 
+<event>leave GE Digital</event>
+</entry>
+	
+<entry>
+<time>2018.09</time> 
+<event>on Sept.7th, finally born were my lovely son!</event>
+</entry>
+	
+<entry>
+<time>2018.05</time> 
+<event>a paper about annotation arrhythmia for ECG cloud by deep network is accept by CIT2018.</event>
+<links>
+<name>paper</name>
+<to>https://arxiv.org/pdf/1806.07715.pdf</to>
+<name>CIT2018</name>
+<to>http://cse.stfx.ca/~cit2018/</to>
+</links>
+</entry>
+	
+<entry>
+<time>2017.05</time> 
+<event>start working in GE Digital as staff data scientist.</event>
+</entry>
+
+<entry>
+<time>2016.09</time> 
+<event>a paper about microcalcification twinkling in B-Flow U/S mode is accept by JOMU.</event>
+<links>
+<name>paper</name>
+<to>http://alfredlu.users.sourceforge.net/doc/Dominant.factor.analysis.of.B-flow.twinkling.sign.with.phantom.and.simulation.data.pdf</to>
+<name>JOMU</name>
+<to>http://link.springer.com/journal/10396</to>
+</links>
+</entry>
+
+<entry>
+<time>2015.09</time> 
+<event>a paper about ultrasonic pulse compression in downhole drilling is accept by CIT2015.</event>
+<links>
+<name>paper</name>
+<to>http://alfredlu.users.sourceforge.net/doc/Method.to.Develop.Coded.Excitation.for.Velocimetry.in.Downhole.Drilling.pdf</to>
+<name>CIT2015</name>
+<to>http://cse.stfx.ca/~cit2015/</to>
+</links>
+</entry>
+
+<entry>
+<time>2015.08</time> 
+<event>get the Data Science Specialization Certification from Johns Hopkins University. This specialization includes 9 courses and a capstone project, which takes me about a whole year.</event>
+<links>
+<name>Certification</name>
+<to>https://www.coursera.org/account/accomplishments/specialization/2REUCNNAR244</to>
+</links>
+</entry>
+
+<entry>
+<time>2014.12</time>
+<event>get married</event>
+<links>
+<name>get married</name>
+<to>http://alfredlu.users.sourceforge.net/familygallery.html</to>
+</links>
+</entry>
+
+<entry>
+<time>2013.05</time>
+<event>purchase a Ford Focus ST 1.6MT</event> 
+</entry>
+
+<entry>
+<time>2012.12</time>
+<event>create a app in google app engine to generate the RSS feed of Sina Weibo</event> 
+</entry>
+
+<entry>
+<time>2012.12</time>
+<event>finish GB project and is certified as a GB of 6Sigma</event> 
+</entry>
+
+<entry>
+<time>2012.12</time>
+<event>get my driver license</event> 
+</entry>
+
+<entry>
+<time>2012.10</time>
+<event>pass all exams of the GB of 6Sigma</event> 
+</entry>
+
+<entry>
+<time>2012.09</time>
+<event>add RSS feed to my home site</event> 
+</entry>
+
+<entry>
+<time>2012.05</time>
+<event>join GE Global Research as a lead engineer</event> 
+</entry>
+
+<entry>
+<time>2012.05</time>
+<event>leave Philips Research Asia</event> 
+</entry>
+
+<entry>
+<time>2011.10</time> 
+<event>moved into my new apartment.</event>
+</entry>
+
+<entry>
+<time>2011.10</time> 
+<event>away passed my maternal grandpa</event>
+</entry>
+
+<entry>
+<time>2011.09</time>
+<event>get my second Ph.D. degree in computer science from school of computer science and engineering, Aizu University, Japan.</event>
+<links>
+<name>Aizu University</name>
+<to>http://www.u-aizu.ac.jp</to>
+</links>
+</entry>
+
+<entry>
+<time>2011.03</time> 
+<event>a publication about the cardiac computational model and electrophysiological study conducted on this model is accept by Adv Eng Soft.. The source files used in this paper is in cardiacsimu project.</event>
+<links>
+<name>Adv Eng Soft.</name>
+<to>http://www.elsevier.com/wps/find/journaldescription.cws_home/422911/description#description</to>
+<name>cardiacsimu</name>
+<to>http://cardiacsimu.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2011.03</time> 
+<event>cardiacsimu v0.03 is released as well as the configuration files for simulation reentry.</event>
+<links>
+<name>cardiacsimu</name>
+<to>http://cardiacsimu.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2010.11</time> 
+<event>cardiacsimu v0.02 is released with some configuration files for simulation.</event>
+<links>
+<name>cardiacsimu</name>
+<to>http://cardiacsimu.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2010.09</time> 
+<event>start working in Philips Research Asia as a scientist in healthcare department.</event>
+</entry>
+
+<entry>
+<time>2010.07</time> 
+<event>cardiacsimu v0.01 is released.</event>
+<links>
+<name>cardiacsimu</name>
+<to>http://cardiacsimu.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2010.04</time> 
+<event>become a member of WOSH project.</event>
+<links>
+<name>WOSH</name>
+<to>http://wosh.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2010.02</time> 
+<event>a publication about interpolation of epicardial mapping data on 3D atrium model is accepted by Comput Biol Med.. The source files used in this paper is in cardiac map suite project.</event>
+<links>
+<name>Comput Biol Med.</name>
+<to>http://www.elsevier.com/wps/find/journaldescription.cws_home/351/description#description</to>
+<name>cardiac map suite</name>
+<to>http://cardiacmap.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2010.02</time> 
+<event>cardiacmap v2.00 is released. Within this version, the new interpolation method is released.</event>
+<links>
+<name>cardiacmap</name>
+<to>http://cardiacmap.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2009.07</time> 
+<event>cardiacmap v1.00 is released. This version is used in animal experiments for several times.</event>
+<links>
+<name>cardiacmap</name>
+<to>http://cardiacmap.sourceforge.net</to>
+</links>
+</entry>
+
+<entry>
+<time>2009.06</time> 
+<event>get my first Ph.D. degree in biomedical enginnering from department of E.E., school of information science and technology, Fudan University, China.</event>
+<links>
+<name>Fudan University</name>
+<to>http://www.fudan.edu.cn</to>
+</links>
+</entry>
+
+<entry>
+<time>2008.10</time> 
+<event>away passed my maternal grandma.</event>
+</entry>
+
+<entry>
+<time>2008.04</time> 
+<event>enroll into the Ph.D. program in Aizu University, this is a dual diploma program with Fudan University.</event>
+<links>
+<name>Aizu University</name>
+<to>http://www.u-aizu.ac.jp</to>
+<name>Fudan University</name>
+<to>http://www.fudan.edu.cn</to>
+</links>
+</entry>
+
+<entry>
+<time>2006.09</time> 
+<event>fulfill the master program earlier and change into the Ph.D. program.</event>
+</entry>
+
+<entry>
+<time>2005.12</time> 
+<event>start a very serious relationship.</event>
+</entry>
+
+<entry>
+<time>2004.09</time> 
+<event>enroll into the master program in Fudan University.</event>
+<links>
+<name>Fudan University</name>
+<to>http://www.fudan.edu.cn</to>
+</links>
+</entry>
+
+<entry>
+<time>2003.09</time> 
+<event>start my career in Baokang Control Engineering Ltd., Shanghai, China.</event>
+<links>
+<name>Baokang Control Engineering Ltd</name>
+<to>http://www.shbaokang.com/</to>
+</links>
+</entry>
+
+<entry>
+<time>2003.07</time> 
+<event>graduate from Nanjing University of Science and Technology.</event>
+<links>
+<name>Nanjing University of Science and Technology</name>
+<to>http://www.njust.edu.cn/</to>
+</links>
+</entry>
+
+</news>
