@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD> 
+<Title> Alfred Lu </TITLE> 
+<Link REL="SHORTCUT ICON" HREF="favicon.ico">
+<Link REL="STYLESHEET" TYPE="text/css" MEDIA="all" HREF="common.css">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=utf-8">
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+
+<script>
+	/* 1. 版权年份：DOM 准备就绪后就能写，不用等图片等资源 */
+	document.addEventListener('DOMContentLoaded', () => {
+		const year = new Date().getFullYear();
+		document.getElementById('yearBox').textContent =
+			`\u00A9 ${year} Alfred Lu - All rights reserved`;
+	});
+
+	/* 2. 新闻列表：同样 DOMContentLoaded 触发，顺序在版权之后 */
+	document.addEventListener('DOMContentLoaded', () => dumpNews(-1));  // 只显示前 5 条	
+
+	/* 3. 加载title：同样 DOMContentLoaded 触发，顺序在新闻之后 */
+	document.addEventListener('DOMContentLoaded', () => loadTitle());  // 只显示前 5 条		
+        
+</script>
+
+</HEAD> 
+
+<BODY>
+
+<div class="divmain">
+
+<!-- title -->
+<div id="title-container"></div>
+
+<!-- Announcement -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td align="left" valign="bottom">
+<h3><a name="Announcement"></a>Timeline</h3>
+</td>
+<td align="right" valign="bottom">
+<a href="http://alfredlu.users.sourceforge.net"><font size="-1" color="#8F8F8F"><i>home</i></font></a>
+</td>
+</tr>
+</table>
+<hr>
+
+<div id="news-container"></div>
+
+
+<hr>
+<!--do not show these parts end -->
+
+<table border="0" align="center">
+<tr>
+
+<td>
+<div id="yearBox"></div>
+</td>
+
+</tr>
+</table>
+
+</div>
+
+</BODY>
+</HTML>
