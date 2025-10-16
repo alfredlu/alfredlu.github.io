@@ -1,0 +1,106 @@
+.redpinli {
+	list-style-type: none;
+	list-style-image: url(redpin.png);
+}
+
+.greenpinli {
+	list-style-type: none;
+	list-style-image: url(greenpin.png);
+}
+
+.divmain {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.divfloat {
+	float: right;
+}
+
+.htitle {
+	/*background: url(/htitle.gif) no-repeat right 20%;*/
+}
+
+a:link {
+	text-decoration:none; 
+	color:#838383
+}
+
+a:hover {
+	text-decoration:none; 
+	color:#000080
+}
+
+a:active {
+	text-decoration:none; 
+	color:#838383
+}
+
+a:visited {
+	text-decoration:none; 
+	color:#838383
+}
+
+@font-face {
+	font-family: 'ComicRelief';
+	src: url('ComicRelief.ttf');
+}
+
+@font-face {
+	font-family: 'Butter Finger';
+	src: url('Butter Finger.ttf');
+}
+
+@font-face {
+	font-family: 'Century Gothic';
+	src: url('Gothic.ttf');
+}
+
+@font-face {
+	font-family: 'Questrial';
+	src: url('Questrial-Regular.ttf');
+}
+
+body {
+	background-color: transparent;
+	border-color: #d3d3d3;
+	color: #838383;
+	-webkit-font-smoothing: antialiased;
+	/*font-family: 'Questrial', 'Century Gothic', 'Helvetica', 'Comic Sans MS', 'ComicRelief', cursive, sans-serif;*/
+	font-family: 'Helvetica', sans-serif;
+	font-size: 100%;
+	margin-bottom: 0px;
+	/*background-image:url('bg.jpg');*/
+	background-size:110% 110%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	/*text-shadow:white -1px 1px*/ 
+	/*filter : progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale', src='bg.jpg')*/
+	filter: Shadow(Color=#ffffff, Direction=0, Strength=1);
+}
+
+h3 {
+	color: #036;
+	font-variant: small-caps;
+	font-size: 150%;
+	margin-bottom: 0px;
+	font-weight: normal;
+	font-family: 'Helvetica', sans-serif;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	h3 {
+		font-size: 2em;
+	}
+}
+
+@media screen and (min-device-width:800px) {
+	.divmain {
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+	}
+}
+
