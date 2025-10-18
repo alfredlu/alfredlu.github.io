@@ -2,6 +2,53 @@
 <news>
 
 <entry>
+<time>2024.09</time>
+<event>two research paper about federated learning is published. One in JAuto, accelerating the training and improving the performance in trajectory prediction. Another in Euro-par 2024, addressing the long-tail issue in federated classification.</event>
+<links>
+<name>One</name>
+<to>https://doi.org/10.1177/09544070241272761 </to>
+<name>Another</name>
+<to>https://doi.org/10.1007/978-3-031-69766-1_28 </to>
+</links>
+</entry>
+
+<entry>
+<time>2024.06</time>
+<event>we present our research paper on intelligent vehicle symposium 2024, bringing forward a safe reinforcement learning policy for cutting-in scenarios in ACC.</event>
+<links>
+<name>paper</name>
+<to>https://doi.org/10.1109/iv55156.2024.10588462</to>
+<name>intelligent vehicle symposium 2024</name>
+<to>https://ieee-iv.org/2024/</to>
+</links>
+</entry>
+
+
+<entry>
+<time>2023.03</time>
+<event>a paper is accepted by 57th CISS, predicting location of cellphone by BLE signal for a keyless entry in vehicle.</event>
+<links>
+<name>paper</name>
+<to> https://doi.org/10.1109/ciss56502.2023.10089682</to>
+</links>
+</entry>
+
+<entry>
+<time>2022.07</time>
+<event>a paper is accepted by IJCNN, adversarial learning a deep network for intrusion detection.</event>
+</entry>
+
+<entry>
+<time>2022.03</time> 
+<event>away passed our lovely pet cat in outbreak of COVID-19 in Shanghai.</event>
+</entry>
+
+<entry>
+<time>2021.11</time>
+<event>A dual batch size training method is published in 33rd ICTAI.</event>
+</entry>
+
+<entry>
 <time>2021.09</time> 
 <event>start my another role in UAES XE BU as senior manager</event>
 </entry>
@@ -9,6 +56,11 @@
 <entry>
 <time>2021.08</time> 
 <event>away passed my grandma</event>
+</entry>
+
+<entry>
+<time>2020.10</time>
+<event>Our model presented in ISBI2020 is further summarized in a theranostics journal paper.</event>
 </entry>
 
 <entry>
