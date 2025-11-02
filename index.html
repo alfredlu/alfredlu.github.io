@@ -29,11 +29,30 @@
 	document.addEventListener('DOMContentLoaded', () => dumpNews(5));  // 只显示前 5 条	
 
 	/* 3. 加载title：同样 DOMContentLoaded 触发，顺序在新闻之后 */
-	document.addEventListener('DOMContentLoaded', () => loadTitle());  // 只显示前 5 条		
+	document.addEventListener('DOMContentLoaded', () => loadTitle());  // 只显示前 5 条	
+	
+	/* 4. 添加light on */
 
+	const STORAGE_KEY = 'theme-preference';
 	const html = document.documentElement;
-	const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    html.classList.toggle('dark', prefersDark);
+
+    function initTheme() {
+		const saved = localStorage.getItem(STORAGE_KEY);
+		if (saved) {
+			html.classList.toggle('dark', saved === 'dark');
+		} else {
+			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			html.classList.toggle('dark', prefersDark);
+		}
+    }
+
+	document.getElementById('switch-light').addEventListener('click', function (e) {
+		html.classList.toggle('dark');
+		const nowDark = html.classList.contains('dark');
+		localStorage.setItem(STORAGE_KEY, nowDark ? 'dark' : 'light');
+	})
+
+	initTheme();
         
 </script>
 
