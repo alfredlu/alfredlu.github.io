@@ -77,8 +77,8 @@ a:visited {
 }
 
 .logo {
-	/* width: 200px; */
-	/* height: auto; */
+	width: 200px;
+	height: auto;
 	content: var(--logo-url);   /* 把变量赋给 content，Firefox/Chrome 都认 */
 	display: block;
 	margin: 2rem auto;
