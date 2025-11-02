@@ -54,7 +54,7 @@ function loadTitle(div_name = "title-container") {
         "<table cellpadding=\"10\">",
         "<tr>",
         "    <td align=\"left\">",
-        "    <img align=\"top\" src=\"my.gif\" alt=\"Self Portrait\">",
+        "    <img align=\"top\" id=\"logo\" class=\"logo\" alt=\"Self Portrait\">",
         "    </td>",
         "    <td align=\"center\">",
         "    <br/>",
