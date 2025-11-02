@@ -46,11 +46,13 @@
 		}
     }
 
-	$('#special-link').on('click', function (e) {
-		e.preventDefault();
-		// html.classList.toggle('dark');
-		const nowDark = html.classList.contains('dark');
-		localStorage.setItem(STORAGE_KEY, nowDark ? 'dark' : 'light');
+	document.body.addEventListener('click', e => {
+		if (e.target.matches('#switch-light')) {
+			e.preventDefault();
+			// html.classList.toggle('dark');
+			const nowDark = html.classList.contains('dark');
+			localStorage.setItem(STORAGE_KEY, nowDark ? 'dark' : 'light');
+		}
 	})
 
 	initTheme();
