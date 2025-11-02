@@ -70,7 +70,7 @@ function loadTitle(div_name = "title-container") {
         "           E-mail: AlfredWJLu AT gmail DOT com<br/>",
         "           Wechat: alfredwjlu<br/>",
         "           <br/>",
-        "             <a href=\"doc/LuwjCVEn.pdf\">More about me...</a><br/><br/>",
+        "             <a href=\"doc/LuwjCVEn.pdf\">More about me...</a><br/>",
         "             <a href=\"\" id=\"switch-light\">Switch light</a><br/>",
         "            <!-- <a href=\"paps.php\">Projects and Publications</a> -->",
         "       </td>",
