@@ -46,8 +46,9 @@
 		}
     }
 
-	document.getElementById('switch-light').addEventListener('click', function (e) {
-		html.classList.toggle('dark');
+	$('#special-link').on('click', function (e) {
+		e.preventDefault();
+		// html.classList.toggle('dark');
 		const nowDark = html.classList.contains('dark');
 		localStorage.setItem(STORAGE_KEY, nowDark ? 'dark' : 'light');
 	})
