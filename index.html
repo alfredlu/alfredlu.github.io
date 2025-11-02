@@ -53,6 +53,8 @@
 				// html.classList.toggle('dark');
 				const nowDark = html.classList.contains('dark');
 				localStorage.setItem(STORAGE_KEY, nowDark ? 'light' : 'dark');
+
+				initTheme();
 			}
 		});
 	});
