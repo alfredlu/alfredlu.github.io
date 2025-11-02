@@ -1,375 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<news>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD> 
+<Title> Alfred Lu </TITLE> 
+<Link REL="SHORTCUT ICON" HREF="favicon.ico">
+<Link REL="STYLESHEET" TYPE="text/css" MEDIA="all" HREF="common.css">
+<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=utf-8">
 
-<entry>
-<time>2024.09</time>
-<event>two research paper about federated learning is published. One in JAuto, accelerating the training and improving the performance in trajectory prediction. Another in Euro-par 2024, addressing the long-tail issue in federated classification.</event>
-<links>
-<name>One</name>
-<to>https://doi.org/10.1177/09544070241272761 </to>
-<name>Another</name>
-<to>https://doi.org/10.1007/978-3-031-69766-1_28 </to>
-</links>
-</entry>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
 
-<entry>
-<time>2024.06</time>
-<event>we present our research paper on intelligent vehicle symposium 2024, bringing forward a safe reinforcement learning policy for cutting-in scenarios in ACC.</event>
-<links>
-<name>paper</name>
-<to>https://doi.org/10.1109/iv55156.2024.10588462</to>
-<name>intelligent vehicle symposium 2024</name>
-<to>https://ieee-iv.org/2024/</to>
-</links>
-</entry>
+<script>
+	/* 1. 版权年份：DOM 准备就绪后就能写，不用等图片等资源 */
+	document.addEventListener('DOMContentLoaded', () => {
+		const year = new Date().getFullYear();
+		document.getElementById('yearBox').textContent =
+			`\u00A9 ${year} Alfred Lu - All rights reserved`;
+	});
+
+	/* 2. 新闻列表：同样 DOMContentLoaded 触发，顺序在版权之后 */
+	document.addEventListener('DOMContentLoaded', () => dumpNews(-1));  // 只显示前 5 条	
+
+	/* 3. 加载title：同样 DOMContentLoaded 触发，顺序在新闻之后 */
+	document.addEventListener('DOMContentLoaded', () => loadTitle());  // 只显示前 5 条		
+
+	/* 4. 添加light on */
+
+	const STORAGE_KEY = 'theme-preference';
+	const html = document.documentElement;
+
+    function initTheme() {
+		const saved = localStorage.getItem(STORAGE_KEY);
+		if (saved) {
+			html.classList.toggle('dark', saved === 'dark');
+		} else {
+			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			html.classList.toggle('dark', prefersDark);
+		}
+    }
+
+	window.addEventListener('DOMContentLoaded', () => {
+		document.body.addEventListener('click', e => {
+			if (e.target.matches('#switch-light')) {
+				e.preventDefault();
+				// html.classList.toggle('dark');
+				const nowDark = html.classList.contains('dark');
+				localStorage.setItem(STORAGE_KEY, nowDark ? 'light' : 'dark');
+
+				initTheme();
+			}
+		});
+	});
+
+	initTheme();
+        
+</script>
+
+</HEAD> 
+
+<BODY>
+
+<div class="divmain">
+
+<!-- title -->
+<div id="title-container"></div>
+
+<!-- Announcement -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+<tr>
+<td align="left" valign="bottom">
+<h3><a name="Announcement"></a>Timeline</h3>
+</td>
+<td align="right" valign="bottom">
+<a href="https://alfredlu.github.io"><font size="-1" color="#8F8F8F"><i>home</i></font></a>
+</td>
+</tr>
+</table>
+<hr>
+
+<div id="news-container"></div>
 
 
-<entry>
-<time>2023.03</time>
-<event>a paper is accepted by 57th CISS, predicting location of cellphone by BLE signal for a keyless entry in vehicle.</event>
-<links>
-<name>paper</name>
-<to> https://doi.org/10.1109/ciss56502.2023.10089682</to>
-</links>
-</entry>
+<hr>
+<!--do not show these parts end -->
 
-<entry>
-<time>2022.07</time>
-<event>a paper is accepted by IJCNN, adversarial learning a deep network for intrusion detection.</event>
-</entry>
+<table border="0" align="center">
+<tr>
 
-<entry>
-<time>2022.03</time> 
-<event>away passed our lovely pet cat in outbreak of COVID-19 in Shanghai.</event>
-</entry>
+<td>
+<div id="yearBox"></div>
+</td>
 
-<entry>
-<time>2021.11</time>
-<event>A dual batch size training method is published in 33rd ICTAI.</event>
-</entry>
+</tr>
+</table>
 
-<entry>
-<time>2021.09</time> 
-<event>start my another role in UAES XE BU as senior manager</event>
-</entry>
+</div>
 
-<entry>
-<time>2021.08</time> 
-<event>away passed my grandma</event>
-</entry>
-
-<entry>
-<time>2020.10</time>
-<event>Our model presented in ISBI2020 is further summarized in a theranostics journal paper.</event>
-</entry>
-
-<entry>
-<time>2020.01</time>
-<event>a paper about predicting MSI status from pathlogic image is accepted by ISBI2020</event>
-<links>
-<name>MSI</name>
-<to>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3423729/</to>
-<name>ISBI2020</name>
-<to>http://2020.biomedicalimaging.org/</to>
-</links> 
-</entry>
-
-<entry>
-<time>2019.12</time>
-<event>a paper about a new network pruning method is accepted by ICMLC2020</event>
-<links>
-<name>ICMLC2020</name>
-<to>http://www.icmlc.org/</to>
-</links>
-</entry>
-
-<entry>
-<time>2019.09</time>
-<event>a paper about a new boundary constraint loss for semantic segmentation is accepted by JMIHI</event>
-<links>
-<name>paper</name>
-<to>http://alfredlu.users.sourceforge.net/doc/Lu2019-BCLoss.pdf</to>
-<name>JMIHI</name>
-<to>http://www.aspbs.com/jmihi.html</to>
-</links>
-</entry>
-
-<entry>
-<time>2019.08</time>
-<event>join UAES as chief AI scientist</event> 
-</entry>
-
-<entry>
-<time>2018.09</time>
-<event>join Tencent AI Lab</event> 
-</entry>
-
-<entry>
-<time>2018.09</time> 
-<event>leave GE Digital</event>
-</entry>
-	
-<entry>
-<time>2018.09</time> 
-<event>on Sept.7th, finally born were my lovely son!</event>
-</entry>
-	
-<entry>
-<time>2018.05</time> 
-<event>a paper about annotation arrhythmia for ECG cloud by deep network is accept by CIT2018.</event>
-<links>
-<name>paper</name>
-<to>https://arxiv.org/pdf/1806.07715.pdf</to>
-<name>CIT2018</name>
-<to>http://cse.stfx.ca/~cit2018/</to>
-</links>
-</entry>
-	
-<entry>
-<time>2017.05</time> 
-<event>start working in GE Digital as staff data scientist.</event>
-</entry>
-
-<entry>
-<time>2016.09</time> 
-<event>a paper about microcalcification twinkling in B-Flow U/S mode is accept by JOMU.</event>
-<links>
-<name>paper</name>
-<to>http://alfredlu.users.sourceforge.net/doc/Dominant.factor.analysis.of.B-flow.twinkling.sign.with.phantom.and.simulation.data.pdf</to>
-<name>JOMU</name>
-<to>http://link.springer.com/journal/10396</to>
-</links>
-</entry>
-
-<entry>
-<time>2015.09</time> 
-<event>a paper about ultrasonic pulse compression in downhole drilling is accept by CIT2015.</event>
-<links>
-<name>paper</name>
-<to>http://alfredlu.users.sourceforge.net/doc/Method.to.Develop.Coded.Excitation.for.Velocimetry.in.Downhole.Drilling.pdf</to>
-<name>CIT2015</name>
-<to>http://cse.stfx.ca/~cit2015/</to>
-</links>
-</entry>
-
-<entry>
-<time>2015.08</time> 
-<event>get the Data Science Specialization Certification from Johns Hopkins University. This specialization includes 9 courses and a capstone project, which takes me about a whole year.</event>
-<links>
-<name>Certification</name>
-<to>https://www.coursera.org/account/accomplishments/specialization/2REUCNNAR244</to>
-</links>
-</entry>
-
-<entry>
-<time>2014.12</time>
-<event>get married</event>
-<links>
-<name>get married</name>
-<to>http://alfredlu.users.sourceforge.net/familygallery.html</to>
-</links>
-</entry>
-
-<entry>
-<time>2013.05</time>
-<event>purchase a Ford Focus ST 1.6MT</event> 
-</entry>
-
-<entry>
-<time>2012.12</time>
-<event>create a app in google app engine to generate the RSS feed of Sina Weibo</event> 
-</entry>
-
-<entry>
-<time>2012.12</time>
-<event>finish GB project and is certified as a GB of 6Sigma</event> 
-</entry>
-
-<entry>
-<time>2012.12</time>
-<event>get my driver license</event> 
-</entry>
-
-<entry>
-<time>2012.10</time>
-<event>pass all exams of the GB of 6Sigma</event> 
-</entry>
-
-<entry>
-<time>2012.09</time>
-<event>add RSS feed to my home site</event> 
-</entry>
-
-<entry>
-<time>2012.05</time>
-<event>join GE Global Research as a lead engineer</event> 
-</entry>
-
-<entry>
-<time>2012.05</time>
-<event>leave Philips Research Asia</event> 
-</entry>
-
-<entry>
-<time>2011.10</time> 
-<event>moved into my new apartment.</event>
-</entry>
-
-<entry>
-<time>2011.10</time> 
-<event>away passed my maternal grandpa</event>
-</entry>
-
-<entry>
-<time>2011.09</time>
-<event>get my second Ph.D. degree in computer science from school of computer science and engineering, Aizu University, Japan.</event>
-<links>
-<name>Aizu University</name>
-<to>http://www.u-aizu.ac.jp</to>
-</links>
-</entry>
-
-<entry>
-<time>2011.03</time> 
-<event>a publication about the cardiac computational model and electrophysiological study conducted on this model is accept by Adv Eng Soft.. The source files used in this paper is in cardiacsimu project.</event>
-<links>
-<name>Adv Eng Soft.</name>
-<to>http://www.elsevier.com/wps/find/journaldescription.cws_home/422911/description#description</to>
-<name>cardiacsimu</name>
-<to>http://cardiacsimu.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2011.03</time> 
-<event>cardiacsimu v0.03 is released as well as the configuration files for simulation reentry.</event>
-<links>
-<name>cardiacsimu</name>
-<to>http://cardiacsimu.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2010.11</time> 
-<event>cardiacsimu v0.02 is released with some configuration files for simulation.</event>
-<links>
-<name>cardiacsimu</name>
-<to>http://cardiacsimu.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2010.09</time> 
-<event>start working in Philips Research Asia as a scientist in healthcare department.</event>
-</entry>
-
-<entry>
-<time>2010.07</time> 
-<event>cardiacsimu v0.01 is released.</event>
-<links>
-<name>cardiacsimu</name>
-<to>http://cardiacsimu.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2010.04</time> 
-<event>become a member of WOSH project.</event>
-<links>
-<name>WOSH</name>
-<to>http://wosh.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2010.02</time> 
-<event>a publication about interpolation of epicardial mapping data on 3D atrium model is accepted by Comput Biol Med.. The source files used in this paper is in cardiac map suite project.</event>
-<links>
-<name>Comput Biol Med.</name>
-<to>http://www.elsevier.com/wps/find/journaldescription.cws_home/351/description#description</to>
-<name>cardiac map suite</name>
-<to>http://cardiacmap.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2010.02</time> 
-<event>cardiacmap v2.00 is released. Within this version, the new interpolation method is released.</event>
-<links>
-<name>cardiacmap</name>
-<to>http://cardiacmap.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2009.07</time> 
-<event>cardiacmap v1.00 is released. This version is used in animal experiments for several times.</event>
-<links>
-<name>cardiacmap</name>
-<to>http://cardiacmap.sourceforge.net</to>
-</links>
-</entry>
-
-<entry>
-<time>2009.06</time> 
-<event>get my first Ph.D. degree in biomedical enginnering from department of E.E., school of information science and technology, Fudan University, China.</event>
-<links>
-<name>Fudan University</name>
-<to>http://www.fudan.edu.cn</to>
-</links>
-</entry>
-
-<entry>
-<time>2008.10</time> 
-<event>away passed my maternal grandma.</event>
-</entry>
-
-<entry>
-<time>2008.04</time> 
-<event>enroll into the Ph.D. program in Aizu University, this is a dual diploma program with Fudan University.</event>
-<links>
-<name>Aizu University</name>
-<to>http://www.u-aizu.ac.jp</to>
-<name>Fudan University</name>
-<to>http://www.fudan.edu.cn</to>
-</links>
-</entry>
-
-<entry>
-<time>2006.09</time> 
-<event>fulfill the master program earlier and change into the Ph.D. program.</event>
-</entry>
-
-<entry>
-<time>2005.12</time> 
-<event>start a very serious relationship.</event>
-</entry>
-
-<entry>
-<time>2004.09</time> 
-<event>enroll into the master program in Fudan University.</event>
-<links>
-<name>Fudan University</name>
-<to>http://www.fudan.edu.cn</to>
-</links>
-</entry>
-
-<entry>
-<time>2003.09</time> 
-<event>start my career in Baokang Control Engineering Ltd., Shanghai, China.</event>
-<links>
-<name>Baokang Control Engineering Ltd</name>
-<to>http://www.shbaokang.com/</to>
-</links>
-</entry>
-
-<entry>
-<time>2003.07</time> 
-<event>graduate from Nanjing University of Science and Technology.</event>
-<links>
-<name>Nanjing University of Science and Technology</name>
-<to>http://www.njust.edu.cn/</to>
-</links>
-</entry>
-
-</news>
+</BODY>
+</HTML>
