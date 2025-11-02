@@ -62,10 +62,35 @@ a:visited {
 	src: url('Questrial-Regular.ttf');
 }
 
+:root {
+	--bg-color: #838383;
+	--text-color: #222222;
+	--border-color: #d3d3d3;
+	--logo-url: url('my.gif');
+}
+
+:root.dark {
+	--bg-color: #1E1E1E;
+	--text-color: #838383;
+	--border-color: #161616;
+	--logo-url: url('my-dark.gif');	
+}
+
+.logo {
+	/* width: 200px; */
+	/* height: auto; */
+	content: var(--logo-url);   /* 把变量赋给 content，Firefox/Chrome 都认 */
+	display: block;
+	margin: 2rem auto;
+}
+
 body {
-	background-color: transparent;
-	border-color: #d3d3d3;
-	color: #838383;
+	/* background-color: transparent; */
+	border-color: var(--border-color);
+	/* color: #838383; */
+	background: var(--bg-color);
+	color: var(--text-color);
+	transition: background .25s, color .25s;
 	-webkit-font-smoothing: antialiased;
 	/*font-family: 'Questrial', 'Century Gothic', 'Helvetica', 'Comic Sans MS', 'ComicRelief', cursive, sans-serif;*/
 	font-family: 'Helvetica', sans-serif;
