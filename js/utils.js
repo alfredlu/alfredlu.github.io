@@ -71,6 +71,7 @@ function loadTitle(div_name = "title-container") {
         "           Wechat: alfredwjlu<br/>",
         "           <br/>",
         "             <a href=\"doc/LuwjCVEn.pdf\">More about me...</a><br/>",
+        "             <a href=\"\" id=\"switch-light\">Light on|off</a><br/>",
         "            <!-- <a href=\"paps.php\">Projects and Publications</a> -->",
         "       </td>",
         "       </tr>",
