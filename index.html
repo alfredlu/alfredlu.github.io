@@ -30,6 +30,10 @@
 
 	/* 3. 加载title：同样 DOMContentLoaded 触发，顺序在新闻之后 */
 	document.addEventListener('DOMContentLoaded', () => loadTitle());  // 只显示前 5 条		
+
+	const html = document.documentElement;
+	const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    html.classList.toggle('dark', prefersDark);
         
 </script>
 
