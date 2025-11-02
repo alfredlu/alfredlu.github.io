@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <HTML>
 <HEAD> 
-<Title> Alfred Lu </TITLE> 
+<Title> Alfred Lu </Title> 
 <Link REL="SHORTCUT ICON" HREF="favicon.ico">
 <Link REL="STYLESHEET" TYPE="text/css" MEDIA="all" HREF="common.css">
 <META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
@@ -24,9 +24,35 @@
 	/* 3. 加载title：同样 DOMContentLoaded 触发，顺序在新闻之后 */
 	document.addEventListener('DOMContentLoaded', () => loadTitle());  // 只显示前 5 条		
 
+	/* 4. 添加light on */
+
+	const STORAGE_KEY = 'theme-preference';
 	const html = document.documentElement;
-	const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-    html.classList.toggle('dark', prefersDark);
+
+    function initTheme() {
+		const saved = localStorage.getItem(STORAGE_KEY);
+		if (saved) {
+			html.classList.toggle('dark', saved === 'dark');
+		} else {
+			const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+			html.classList.toggle('dark', prefersDark);
+		}
+    }
+
+	window.addEventListener('DOMContentLoaded', () => {
+		document.body.addEventListener('click', e => {
+			if (e.target.matches('#switch-light')) {
+				e.preventDefault();
+				// html.classList.toggle('dark');
+				const nowDark = html.classList.contains('dark');
+				localStorage.setItem(STORAGE_KEY, nowDark ? 'light' : 'dark');
+
+				initTheme();
+			}
+		});
+	});
+
+	initTheme();
         
 </script>
 
