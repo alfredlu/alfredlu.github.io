@@ -63,16 +63,16 @@ a:visited {
 }
 
 :root {
-	--bg-color: #838383;
+	--bg-color: #FFFFFF;
 	--text-color: #222222;
-	--border-color: #d3d3d3;
+	--border-color: #FFFFFF;
 	--logo-url: url('my.gif');
 }
 
 :root.dark {
 	--bg-color: #1E1E1E;
 	--text-color: #838383;
-	--border-color: #161616;
+	--border-color: #1E1E1E;
 	--logo-url: url('my-dark.gif');	
 }
 
