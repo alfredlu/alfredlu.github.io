@@ -69,7 +69,7 @@ function loadTitle(div_name = "title-container") {
         "       <td align=\"left\">",
         "           E-mail: AlfredWJLu AT gmail DOT com<br/>",
         "           Wechat: alfredwjlu<br/>",
-        "           QQBot: 3889789275<br/>",
+        "           QQBot(ReAct+Tool+WebSearch): 3889789275<br/>",
         "           <br/>",
         "             <a href=\"doc/LuwjCVEn.pdf\">More about me...</a><br/>",
         "             <a href=\"\" id=\"switch-light\">Switch light</a><br/>",
