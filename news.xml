@@ -2,6 +2,26 @@
 <news>
 
 <entry>
+<time>2025.12</time>
+<event>We recently published several paper related to LLM and agent. eg. one called Neural-Symbolic Information Retrieval, enrish RAG with FOL, and another termed as AgentPO, designed for Multi-Agent Systems (MAS).</event>
+<links>
+<name>one</name>
+<to>https://arxiv.org/pdf/2505.22299</to>
+<name>another</name>
+<to>https://iclr.cc/virtual/2026/poster/10011478</to>
+</links>
+</entry
+
+<entry>
+<time>2025.12</time>
+<event>Several federated learning paper are accepted by ICML'25. Check out paper list for details. </event>
+<links>
+<name>paper list</name>
+<to>https://alfredlu.github.io/doc/LuwjCVEn.pdf</to>
+</links>
+</entry>
+	
+<entry>
 <time>2024.09</time>
 <event>two research paper about federated learning is published. One in JAuto, accelerating the training and improving the performance in trajectory prediction. Another in Euro-par 2024, addressing the long-tail issue in federated classification.</event>
 <links>
