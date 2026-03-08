@@ -2,6 +2,15 @@
 <news>
 
 <entry>
+<time>2026.02</time>
+<event>An dify application is created to demo ReAct and chat with table, just for fun. And I also created a bailian application to automatic server on QQ Bot (check title info).</event>
+<links>
+<name>dify application</name>
+<to>https://udify.app/chat/XThQHEZAf4oGK762</to>
+</links>
+</entry>
+	
+<entry>
 <time>2025.12</time>
 <event>We recently published several paper related to LLM and agent. eg. one called Neural-Symbolic Information Retrieval, enrish RAG with FOL, and another termed as AgentPO, designed for Multi-Agent Systems (MAS).</event>
 <links>
@@ -10,7 +19,7 @@
 <name>another</name>
 <to>https://iclr.cc/virtual/2026/poster/10011478</to>
 </links>
-</entry
+</entry>
 
 <entry>
 <time>2025.12</time>
