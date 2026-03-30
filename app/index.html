@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title> Alfred Lu </title>
+</head>
+<body>
+    <p>Redirecting to app...</p>
+    
+    <script>
+        // ECS 基础地址
+        var ecsBase = "http://39.106.159.59";
+        
+        // 获取访问路径，如 /app/user/123
+        var fullPath = window.location.pathname;  // /app/xxx
+        
+        // 去掉 /app 前缀，保留后续路径
+        var targetPath = fullPath.replace(/^\/app/, '');
+        
+        // 组合完整 URL（包含查询参数）
+        var targetUrl = ecsBase + targetPath + window.location.search;
+        
+        // 执行跳转
+        window.location.replace(targetUrl);
+    </script>
+</body>
+</html>
