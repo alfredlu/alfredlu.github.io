@@ -80,6 +80,7 @@ function loadTitle(div_name = "title-container") {
         "       <td align=\"left\">",
         "           <a href=\"https://www.linkedin.com/in/weijialu\" title=\"Be my career partner in LinkedIn\"><img align=\"left\" src=\"Linkedin-icon.png\" alt=\"linkedin\" style=\"margin-right: 10px;\"></a>",
         "           <a href=\"https://www.facebook.com/alfredwjlu\" title=\"Share my joy in Facebook\"><img align=\"left\" src=\"FaceBook-icon.png\" alt=\"facebook\" style=\"margin-right: 10px;\"></a>",
+        "           <a href=\"https://orcid.org/0000-0002-7899-6034\" title=\"Checkout my featured publications\"><img align=\"left\" src=\"Orcid-icon.png\" alt=\"orcid\" style=\"margin-right: 10px;\"></a>",
         "           <a href=\"mailto:AlfredWJLu@gmail.com\" title=\"Give me a mail\"><img align=\"left\" src=\"Google-icon.png\" alt=\"gmail\" style=\"margin-right: 10px;\"></a>",
         "           <!-- <a href=\"rss.php\" title=\"Subscribe my updates by a RSS client\"><img align=\"left\" src=\"Rss-icon.png\" alt=\"rss\" style=\"margin-right: 10px;\"></a> -->",
         "       </td>",
