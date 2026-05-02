@@ -871,6 +871,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="czTEnkyqnaUS0aU7Z38L-6" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.4_point_star_2;dx=0.8;fillColor=light-dark(#FFFFFF,#FF0000);" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="1288" y="298" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
