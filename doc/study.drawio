@@ -1,15 +1,17 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="JjPnbc5XEHUEkiccUMgu">
-    <mxGraphModel dx="1542" dy="919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+    <mxGraphModel dx="967" dy="888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-1" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-2" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=light-dark(#2D7600,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="心外膜标&lt;div&gt;测系统&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="380" y="890" as="geometry" />
-        </mxCell>
+        <UserObject label="心外膜标&lt;div&gt;测系统&lt;/div&gt;" link="https://www.researchgate.net/publication/228847247_Design_and_implementation_of_a_new_system_for_whole-atrial_epicardial_mapping" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-2">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=light-dark(#2D7600,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);glass=0;" vertex="1">
+            <mxGeometry height="80" width="80" x="380" y="890" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-3" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-7" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -64,20 +66,26 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-10" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="心房3D惠根斯传播模型" vertex="1">
-          <mxGeometry height="70" width="70" x="410" y="1070" as="geometry" />
-        </mxCell>
+        <UserObject label="心房3D惠根斯传播模型" link="https://www.researchgate.net/publication/220291645_A_computer_model_based_on_real_anatomy_for_electrophysiology_study" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-11">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry height="70" width="70" x="410" y="1070" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-12" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-9" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="459" y="1070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=light-dark(#2D7600,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="MPI 加速" vertex="1">
-          <mxGeometry height="70" width="70" x="535" y="1030" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-14" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="基于激活时间&lt;div&gt;对齐的3D差值&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="90" x="160" y="910" as="geometry" />
-        </mxCell>
+        <UserObject label="MPI 加速" link="https://www.researchgate.net/publication/221636020_A_Parallel_Algorithm_for_Computer_Simulation_of_Electrocardiogram_Based_on_MPI" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-13">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#60a917;strokeColor=light-dark(#2D7600,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="70" width="70" x="535" y="1030" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="基于激活时间&lt;div&gt;对齐的3D差值&lt;/div&gt;" link="https://www.researchgate.net/publication/42370037_Implementation_of_a_novel_interpolating_method_to_epicardial_potential_mapping_for_atrial_fibrillation_study" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-14">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry height="90" width="90" x="160" y="910" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-15" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-20" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -156,9 +164,11 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#D80073,#00FF80);strokeColor=#A50040;fontColor=#ffffff;" value="2010-2012" vertex="1">
           <mxGeometry height="30" width="80" x="1000" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-30" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="超声血流多&lt;div&gt;普勒信号分析&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="90" x="120" y="718" as="geometry" />
-        </mxCell>
+        <UserObject label="超声血流多&lt;div&gt;普勒信号分析&lt;/div&gt;" link="https://www.researchgate.net/publication/304285036_Method_and_device_for_detecting_occlusionreopening_of_an_artery_and_system_for_measuring_systolic_blood_pressure" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-30">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry height="90" width="90" x="120" y="718" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#000000);" value="Ankle&lt;div&gt;Brachial&lt;/div&gt;&lt;div&gt;Index&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="300" y="680" as="geometry" />
         </mxCell>
@@ -184,9 +194,11 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-36" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);" value="&lt;font style=&quot;&quot;&gt;心血管健康评估&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="70" x="440" y="620" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-37" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="Cox maze&amp;nbsp;&lt;div&gt;和 改进型&lt;/div&gt;&lt;div&gt;透壁消融术&lt;div&gt;评估&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="90" x="160" y="1030" as="geometry" />
-        </mxCell>
+        <UserObject label="Cox maze&amp;nbsp;&lt;div&gt;和 改进型&lt;/div&gt;&lt;div&gt;透壁消融术&lt;div&gt;评估&lt;/div&gt;&lt;/div&gt;" link="https://www.researchgate.net/publication/286501408_Computer_Simulation_of_Cathode_Ablation_for_Atrial_Fibrillation" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-37">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="90" width="90" x="160" y="1030" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-38" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-40" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -199,7 +211,7 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-41" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-42" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.624;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="多普勒原理" vertex="1">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-42" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=light-dark(#D80073,#00FF80);strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);glass=0;" value="多普勒原理" vertex="1">
           <mxGeometry height="70" width="70" x="270" y="600" as="geometry" />
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-43" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-40" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-42">
@@ -210,21 +222,33 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-44" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-45" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.389;exitY=0.057;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fJTDy5ZvE1w7AxFo9gL4-2" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;curved=0;" target="IyOrA7wpxTB7c_DUeqIH-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="490" />
+            </Array>
+            <mxPoint x="290" y="490" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-45" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="声衰减&lt;div&gt;原理&lt;/div&gt;" vertex="1">
           <mxGeometry height="70" width="70" x="230" y="470" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-46" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="信号编解码" vertex="1">
-          <mxGeometry height="70" width="70" x="340" y="410" as="geometry" />
-        </mxCell>
+        <UserObject label="信号编解码" link="https://www.researchgate.net/publication/284100619_Method_to_Develop_Coded_Excitation_for_Velocimetry_in_Downhole_Drilling" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-46">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="70" width="70" x="340" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-47" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-48" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);" value="&lt;font style=&quot;&quot;&gt;石油工程&lt;/font&gt;" vertex="1">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-48" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);glass=0;" value="&lt;font style=&quot;&quot;&gt;石油工程&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="70" x="370" y="325" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-49" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="Early Kick Detection" vertex="1">
-          <mxGeometry height="70" width="70" x="170" y="360" as="geometry" />
-        </mxCell>
+        <UserObject label="Early Kick Detection" link="https://patentimages.storage.googleapis.com/c2/50/70/75149c53182571/WO2018170838A1.pdf" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-49">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="70" width="70" x="170" y="360" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-50" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-46" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.96;entryY=0.771;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -287,9 +311,11 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-62" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-63" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-63" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="超声B-Flow&lt;div&gt;成像 &amp;amp; 闪烁伪影研究&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="770" y="300" as="geometry" />
-        </mxCell>
+        <UserObject label="超声B-Flow&lt;div&gt;成像 &amp;amp; 闪烁伪影研究&lt;/div&gt;" link="https://www.researchgate.net/publication/308764056_Dominant_factor_analysis_of_B-flow_twinkling_sign_with_phantom_and_simulation_data" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-63">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="770" y="300" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-64" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-66" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-67">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -383,7 +409,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-79" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-82" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-158">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-79" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-82" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="IyOrA7wpxTB7c_DUeqIH-158">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1000" y="630" />
@@ -427,12 +453,16 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-85" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" value="2017-2019" vertex="1">
           <mxGeometry height="30" width="80" x="1110" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-86" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="心电图心律失常信号标注" vertex="1">
-          <mxGeometry height="80" width="80" x="810" y="750" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-87" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="基于病理图片&lt;div&gt;的结直肠癌&lt;div&gt;分级 &amp;amp;&lt;div&gt;预后评估&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="100" width="100" x="1060" y="390" as="geometry" />
-        </mxCell>
+        <UserObject label="心电图心律失常信号标注" link="https://www.researchgate.net/publication/325894382_Method_to_Annotate_Arrhythmias_by_Deep_Networks" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-86">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="810" y="750" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="基于病理图片&lt;div&gt;的结直肠癌&lt;div&gt;分级 &amp;amp;&lt;div&gt;预后评估&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" link="https://www.researchgate.net/publication/344375445_Development_and_interpretation_of_a_pathomics-based_model_for_the_prediction_of_microsatellite_instability_in_Colorectal_Cancer" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-87">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="100" width="100" x="1060" y="390" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-88" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-91" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -458,9 +488,11 @@
             <mxPoint x="1308.9999999999995" y="960.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-94" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="分割算法" vertex="1">
-          <mxGeometry height="80" width="80" x="1140" y="530" as="geometry" />
-        </mxCell>
+        <UserObject label="分割算法" link="https://www.researchgate.net/publication/336770198_New_Boundary_Constraint_Loss_to_Facilitate_Glands_Segmentation" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-94">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1140" y="530" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-95" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-96" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-87">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -470,9 +502,11 @@
             <mxPoint x="1080" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-96" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FA6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="多实例分类" vertex="1">
-          <mxGeometry height="80" width="80" x="990" y="525" as="geometry" />
-        </mxCell>
+        <UserObject label="多实例分类" link="https://ieeexplore.ieee.org/document/9098647" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-96">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FA6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="990" y="525" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-97" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-98" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-102">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -481,9 +515,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-98" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FA6800;strokeColor=#020000;fontColor=light-dark(#FFFFFF,#FFFFFF);" value="神经网络压缩和边缘部署" vertex="1">
-          <mxGeometry height="80" width="80" x="950" y="810" as="geometry" />
-        </mxCell>
+        <UserObject label="神经网络压缩和边缘部署" link="https://www.researchgate.net/publication/337826353_An_Attentive_Pruning_Method_for_Edge_Computing" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-98">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FA6800;strokeColor=#020000;fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="950" y="810" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-99" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-101" style="orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" target="IyOrA7wpxTB7c_DUeqIH-102">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -495,9 +531,11 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-100" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-101" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-126">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-101" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="目标检测" vertex="1">
-          <mxGeometry height="75" width="75" x="1170" y="682.5" as="geometry" />
-        </mxCell>
+        <UserObject label="目标检测" link="https://www.researchgate.net/publication/357579045_tuxiangshibiexinpianhanjiequexiandefangfazhuangzhijicunchujiezhi" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-101">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="75" width="75" x="1170" y="682.5" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-102" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" value="喷油器&lt;div&gt;质量检测&lt;/div&gt;" vertex="1">
           <mxGeometry height="75" width="75" x="1060" y="865" as="geometry" />
         </mxCell>
@@ -524,7 +562,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-107" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);" value="&lt;font style=&quot;&quot;&gt;智能制造&lt;/font&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="1246" y="820" as="geometry" />
+          <mxGeometry height="80" width="80" x="1253" y="820" as="geometry" />
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-108" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-110" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-118">
           <mxGeometry relative="1" as="geometry" />
@@ -554,20 +592,24 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1180" y="1042" />
-              <mxPoint x="1180" y="800" />
-              <mxPoint x="1430" y="800" />
+              <mxPoint x="1180" y="790" />
+              <mxPoint x="1430" y="790" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-117" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);" value="&lt;font style=&quot;&quot;&gt;控制学&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="1000" y="1030" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-118" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" value="扭矩模型" vertex="1">
-          <mxGeometry height="80" width="80" x="930" y="1100" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-119" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" value="控制算法&lt;div&gt;标定 &amp;amp; 实验设计&lt;/div&gt;" vertex="1">
-          <mxGeometry height="70" width="70" x="790" y="1070" as="geometry" />
-        </mxCell>
+        <UserObject label="扭矩模型" link="https://www.researchgate.net/publication/357578793_cheliangshujudechulifangfazhuangzhishebeihecunchujiezhi" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-118">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" vertex="1">
+            <mxGeometry height="80" width="80" x="930" y="1100" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="控制算法&lt;div&gt;标定 &amp;amp; 实验设计&lt;/div&gt;" link="https://www.researchgate.net/publication/357579075_fadongjipaiqixitongwendumoxinggoujianfangfazhuangzhijicunchujiezhi" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-119">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" vertex="1">
+            <mxGeometry height="70" width="70" x="790" y="1070" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-120" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-123" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -588,18 +630,22 @@
             <mxPoint x="800" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-126" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" value="PCBA" vertex="1">
-          <mxGeometry height="80" width="80" x="1228" y="925" as="geometry" />
-        </mxCell>
+        <UserObject label="PCBA" link="https://www.researchgate.net/publication/357578878_PCBhanjiequexianjiancefangfazhuangzhijicunchujiezhi" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-126">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" vertex="1">
+            <mxGeometry height="80" width="80" x="1228" y="925" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-127" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-128" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-128" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);" value="&lt;span style=&quot;&quot;&gt;信息安全&lt;/span&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="1400" y="980" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-129" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#FFFFFF;" value="车载入侵&lt;div&gt;检测&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="1255" y="1011" as="geometry" />
-        </mxCell>
+        <UserObject label="车载入侵&lt;div&gt;检测&lt;/div&gt;" link="https://www.researchgate.net/publication/361457361_Using_EBGAN_for_Anomaly_Intrusion_Detection" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-129">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#FFFFFF;" vertex="1">
+            <mxGeometry height="80" width="80" x="1255" y="1011" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-130" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF33FF;strokeColor=#6F0000;fontColor=#ffffff;" value="2021-2023" vertex="1">
           <mxGeometry height="30" width="80" x="1220" y="130" as="geometry" />
         </mxCell>
@@ -615,7 +661,7 @@
             <mxPoint x="1250" y="1051" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-133" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#FFFFFF;" value="PCSP，SLC..." vertex="1">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-133" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#FFFFFF;" value="&lt;a href=&quot;https://www.researchgate.net/publication/365687837_PCSPdianhuoceebaozhenjiancefangfayuzhuangzhi&quot;&gt;PCSP&lt;/a&gt;，&lt;a href=&quot;https://www.researchgate.net/publication/369692908_dianjiquanshutongjifangfa&quot;&gt;SLC&lt;/a&gt;..." vertex="1">
           <mxGeometry height="90" width="90" x="1212" y="1146" as="geometry" />
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-134" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-137" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" target="IyOrA7wpxTB7c_DUeqIH-133">
@@ -638,9 +684,11 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-137" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);" value="&lt;font style=&quot;&quot;&gt;智慧传感器&lt;/font&gt;" vertex="1">
           <mxGeometry height="80" width="80" x="1389" y="1089" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-138" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#FFFFFF;" value="BLE - PK" vertex="1">
-          <mxGeometry height="80" width="80" x="1400" y="1210" as="geometry" />
-        </mxCell>
+        <UserObject label="BLE - PK" link="https://www.researchgate.net/publication/368455356_Toward_Designing_an_Attentive_Deep_Trajectory_Predictor_Based_on_Bluetooth_Low_Energy_Signal" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-138">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#FFFFFF;" vertex="1">
+            <mxGeometry height="80" width="80" x="1400" y="1210" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-139" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-140" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-138">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -678,9 +726,11 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-144" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-145" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-182">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-145" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" value="产能规划" vertex="1">
-          <mxGeometry height="80" width="80" x="1480" y="840" as="geometry" />
-        </mxCell>
+        <UserObject label="产能规划" link="https://www.researchgate.net/publication/372448251_yizhongzidongfenpeichannengdefangfa#fullTextFileContent" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-145">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#6a00ff;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=#ffffff;" vertex="1">
+            <mxGeometry height="80" width="80" x="1480" y="840" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-146" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-150" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="IyOrA7wpxTB7c_DUeqIH-162">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -693,9 +743,11 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-149" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-150" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-166">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-150" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="分布式训练" vertex="1">
-          <mxGeometry height="80" width="80" x="1415" y="550" as="geometry" />
-        </mxCell>
+        <UserObject label="分布式训练" link="https://www.researchgate.net/publication/374386902_moxingdefenbushixunlianfangfahexitong" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-150">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1415" y="550" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-151" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-153" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="IyOrA7wpxTB7c_DUeqIH-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -722,33 +774,47 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-157" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-158" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-183">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-158" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="对比学习" vertex="1">
-          <mxGeometry height="80" width="80" x="1246" y="715" as="geometry" />
-        </mxCell>
+        <UserObject label="对比学习" link="https://www.researchgate.net/publication/372766210_yizhongmubiaojiancefangfazhuangzhicunchujiezhichuanganqijikongzhiqi" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-158">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="66" width="66" x="1260" y="704" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-159" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-160" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-160" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="Node" vertex="1">
-          <mxGeometry height="80" width="80" x="850" y="1210" as="geometry" />
-        </mxCell>
+        <UserObject label="Node" link="https://www.researchgate.net/publication/404397233_yizhongmoxingshujuchulifangfafangzhenzhuangzhicunchujiezhijiceshixitong" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-160">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="850" y="1210" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-161" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-162" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-162" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="轨迹预测" vertex="1">
-          <mxGeometry height="80" width="80" x="1610" y="1089" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-163" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="ACC" vertex="1">
-          <mxGeometry height="80" width="80" x="1690" y="757.5" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-164" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="CRFDC解决&lt;div&gt;数据异构性&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="1430" y="410" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-165" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="分布式优化器FedSMU" vertex="1">
-          <mxGeometry height="80" width="80" x="1550" y="410" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-166" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="低比特&lt;div&gt;分布式训练&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="1680" y="410" as="geometry" />
-        </mxCell>
+        <UserObject label="轨迹预测" link="https://www.researchgate.net/publication/392202635_Hybrid_Attention_with_Memory-based_Conditional_Refinement_for_Unified_Intent_Trajectory_Prediction" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-162">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1610" y="1089" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="ACC" link="https://www.researchgate.net/publication/379955646_A_Comfortable_and_Robust_DRL-based_Car-following_Policy_Incorporating_Lateral_Information_under_Cut-in_Scenarios#%23fullTextFileContent" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-163">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1690" y="757.5" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="CRFDC解决&lt;div&gt;数据异构性&lt;/div&gt;" link="https://www.researchgate.net/publication/380214801_Improving_Generalization_and_Personalization_in_Long-Tailed_Federated_Learning_via_Classifier_Retraining" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-164">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1430" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="分布式优化器FedSMU" link="https://icml.cc/virtual/2025/poster/45089" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-165">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1550" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="低比特&lt;div&gt;分布式训练&lt;/div&gt;" link="https://icml.cc/virtual/2025/poster/44187" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-166">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1680" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-167" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCC00;strokeColor=#36393d;" value="2025-Now" vertex="1">
           <mxGeometry height="30" width="80" x="1220" y="190" as="geometry" />
         </mxCell>
@@ -761,10 +827,10 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-170" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-172" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-180">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-171" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-172" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-183">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-171" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-172" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="IyOrA7wpxTB7c_DUeqIH-183">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-172" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=#36393d;" value="LLM &amp;amp; Agent" vertex="1">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-172" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="LLM &amp;amp; Agent" vertex="1">
           <mxGeometry height="80" width="80" x="1371" y="290" as="geometry" />
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-173" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-174" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-175">
@@ -773,30 +839,38 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-174" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="RAG" vertex="1">
           <mxGeometry height="80" width="80" x="1510" y="240" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-175" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="NS-IR" vertex="1">
-          <mxGeometry height="80" width="80" x="1650" y="240" as="geometry" />
-        </mxCell>
+        <UserObject label="NS-IR" link="https://arxiv.org/pdf/2505.22299" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-175">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1650" y="240" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-176" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-177" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-178">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-177" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=#36393d;" value="RLHF" vertex="1">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-177" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="RLHF" vertex="1">
           <mxGeometry height="80" width="80" x="1510" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-178" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=#36393d;" value="BPO" vertex="1">
-          <mxGeometry height="80" width="80" x="1630" y="330" as="geometry" />
-        </mxCell>
+        <UserObject label="BPO" link="https://arxiv.org/pdf/2506.03557" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-178">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1630" y="330" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-179" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-180" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="IyOrA7wpxTB7c_DUeqIH-181">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-180" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=#36393d;" value="MAS &amp;amp; Planning" vertex="1">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-180" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="MAS &amp;amp; Planning" vertex="1">
           <mxGeometry height="80" width="80" x="1510" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-181" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=#36393d;" value="AgentPO" vertex="1">
-          <mxGeometry height="80" width="80" x="1650" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-182" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="AS" vertex="1">
-          <mxGeometry height="80" width="80" x="1550" y="910" as="geometry" />
-        </mxCell>
+        <UserObject label="AgentPO" link="https://iclr.cc/virtual/2026/poster/10011478" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-181">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1650" y="140" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="AS" link="https://www.researchgate.net/publication/404397032_shengchanchangjingxiadechanxianzidonghuapaichanfangfazhuangzhishebeijijiezhi" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-182">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
+            <mxGeometry height="80" width="80" x="1550" y="910" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="czTEnkyqnaUS0aU7Z38L-3" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-183" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;curved=0;" target="IyOrA7wpxTB7c_DUeqIH-84">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -823,7 +897,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-183" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=#36393d;" value="时序基础模型" vertex="1">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-183" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#CCCC00;strokeColor=light-dark(#FFFFFF,#FFFFFF);" value="时序基础模型" vertex="1">
           <mxGeometry height="80" width="80" x="1245" y="290" as="geometry" />
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-185" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-184" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=0;" target="IyOrA7wpxTB7c_DUeqIH-163">
@@ -870,6 +944,14 @@
               <mxPoint x="1330" y="1320" />
               <mxPoint x="1330" y="1160" />
               <mxPoint x="1310" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fJTDy5ZvE1w7AxFo9gL4-1" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-56" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.986;entryY=0.314;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" target="IyOrA7wpxTB7c_DUeqIH-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="350" />
+              <mxPoint x="460" y="432" />
             </Array>
           </mxGeometry>
         </mxCell>
