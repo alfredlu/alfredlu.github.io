@@ -199,7 +199,7 @@
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-36" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontColor=light-dark(#000000,#00FF80);fillColor=light-dark(#FFFFFF,#000000);" value="&lt;font style=&quot;&quot;&gt;心血管健康评估&lt;/font&gt;" vertex="1">
           <mxGeometry height="70" width="70" x="440" y="620" as="geometry" />
         </mxCell>
-        <UserObject label="Cox maze&amp;nbsp;&lt;div&gt;和 改进型&lt;/div&gt;&lt;div&gt;透壁消融术&lt;div&gt;评估&lt;/div&gt;&lt;/div&gt;" link="https://doi.org/10.1109/CIT.2014.37" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-37">
+        <UserObject label="&lt;div&gt;消融术&lt;div&gt;评估&lt;/div&gt;&lt;/div&gt;" link="https://doi.org/10.1109/CIT.2014.37" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-37">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#1ba1e2;strokeColor=light-dark(#006EAF,#FFFFFF);fontColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
             <mxGeometry height="90" width="90" x="160" y="1030" as="geometry" />
           </mxCell>
@@ -705,9 +705,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-140" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" value="&lt;font style=&quot;&quot;&gt;MOE&lt;/font&gt;" vertex="1">
-          <mxGeometry height="60" width="60" x="1030" y="760" as="geometry" />
-        </mxCell>
+        <UserObject label="&lt;font style=&quot;&quot;&gt;MOE&lt;/font&gt;" link="https://www.researchgate.net/publication/368455356_Toward_Designing_an_Attentive_Deep_Trajectory_Predictor_Based_on_Bluetooth_Low_Energy_Signal" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-140">
+          <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FF33FF;strokeColor=light-dark(#FFFFFF,#FFFFFF);fontColor=light-dark(#000000,#000000);" vertex="1">
+            <mxGeometry height="60" width="60" x="1030" y="760" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-141" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-143" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-145">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
