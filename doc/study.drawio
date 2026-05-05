@@ -449,15 +449,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IyOrA7wpxTB7c_DUeqIH-81" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-82" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#808080);" target="IyOrA7wpxTB7c_DUeqIH-172">
+        <mxCell id="IyOrA7wpxTB7c_DUeqIH-81" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-82" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.313;entryY=0.925;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#808080);entryPerimeter=0;" target="IyOrA7wpxTB7c_DUeqIH-172">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1000" y="630" />
               <mxPoint x="1000" y="670" />
               <mxPoint x="1370" y="670" />
-              <mxPoint x="1370" y="450" />
-              <mxPoint x="1410" y="450" />
-              <mxPoint x="1410" y="370" />
+              <mxPoint x="1370" y="440" />
+              <mxPoint x="1396" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -764,6 +763,14 @@
         </mxCell>
         <mxCell id="IyOrA7wpxTB7c_DUeqIH-149" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-150" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="IyOrA7wpxTB7c_DUeqIH-166">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y-PmLfxRnf2ibtKOxX-x-4" edge="1" parent="1" source="IyOrA7wpxTB7c_DUeqIH-150" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;curved=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1410" y="562" />
+            </Array>
+            <mxPoint x="1410" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="分布式训练" link="https://www.researchgate.net/publication/374386902_moxingdefenbushixunlianfangfahexitong" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-150">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
