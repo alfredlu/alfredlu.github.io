@@ -68,7 +68,7 @@ function loadTitle(div_name = "title-container") {
         "       <tr>",
         "       <td align=\"left\">",
         "           <!-- E-mail: AlfredWJLu AT gmail DOT com<br/> -->",
-        "           To: <a href=\"https://raw.githubusercontent.com/alfredlu/alfredlu.github.io/refs/heads/main/doc/study.drawio.svg\">My Research Portfolio</a><br/>",
+        "           To: <a href=\"https://www.alfsamconsulting.tech/study.svg\">My Research Portfolio</a><br/>",
         "           Wechat: alfredwjlu<br/>",
         "           WeChat Official Account: ALF & SAM<br/>",
         "           <br/>",
