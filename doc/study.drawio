@@ -846,7 +846,7 @@
         </UserObject>
         <UserObject label="分布式优化器FedSMU" link="https://icml.cc/virtual/2025/poster/45089" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-165">
           <mxCell parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#00CCCC;strokeColor=light-dark(#FFFFFF,#FFFFFF);" vertex="1">
-            <mxGeometry height="80" width="80" x="1550" y="410" as="geometry" />
+            <mxGeometry height="80" width="80" x="1559" y="410" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="低比特&lt;div&gt;分布式训练&lt;/div&gt;" link="https://icml.cc/virtual/2025/poster/44187" linkTarget="_blank" id="IyOrA7wpxTB7c_DUeqIH-166">
