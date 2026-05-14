@@ -69,7 +69,7 @@ function loadTitle(div_name = "title-container") {
         "       <td align=\"left\">",
         "           <!-- E-mail: AlfredWJLu AT gmail DOT com<br/> -->",
         "           To: <a href=\"https://www.alfsamconsulting.tech/study.svg\">My Research Portfolio</a><br/>",
-        "           Wechat: alfredwjlu<br/>",
+        "           WeChat: alfredwjlu<br/>",
         "           WeChat Official Account: ALF & SAM<br/>",
         "           <br/>",
         "             <a href=\"doc/LuwjCVEn.pdf\">More about me...</a><br/>",
