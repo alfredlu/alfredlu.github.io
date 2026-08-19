@@ -2,11 +2,22 @@
 <news>
 
 <entry>
+<time>2026.07</time>
+<event>An fundamental model for time series related tasks and learning framework, called ProSAR, are reported in ICML'26. </event>
+<links>
+<name>ProSAR</name>
+<to>https://icml.cc/virtual/2026/poster/62342</to>
+</links>
+</entry>
+
+<entry>
 <time>2026.02</time>
-<event>An dify application is created to demo ReAct and chat with table, just for fun. And I also created a bailian application to automatic server on QQ Bot (check title info).</event>
+<event>An dify application is created to demo ReAct and chat with table, just for fun. And a wechat official account is opened along with a miniprogram (check title info), to share my insight and provide all kinds of service. </event>
 <links>
 <name>dify application</name>
 <to>https://udify.app/chat/XThQHEZAf4oGK762</to>
+<name>all kinds of service</name>
+<to>https://www.alfsamconsulting.tech/</to>
 </links>
 </entry>
 	
@@ -14,19 +25,30 @@
 <time>2025.12</time>
 <event>We recently published several paper related to LLM and agent. eg. one called Neural-Symbolic Information Retrieval, enrish RAG with FOL, and another termed as AgentPO, designed for Multi-Agent Systems (MAS).</event>
 <links>
-<name>one</name>
+<name>Neural-Symbolic Information Retrieval</name>
 <to>https://arxiv.org/pdf/2505.22299</to>
-<name>another</name>
+<name>AgentPO</name>
 <to>https://iclr.cc/virtual/2026/poster/10011478</to>
 </links>
 </entry>
 
 <entry>
 <time>2025.12</time>
-<event>Several federated learning paper are accepted by ICML'25. Check out paper list for details. </event>
+<event>Several federated learning paper (FedSMU, LBI-FL) are accepted by ICML'25. </event>
 <links>
-<name>paper list</name>
-<to>https://alfredlu.github.io/doc/LuwjCVEn.pdf</to>
+<name>FedSMU</name>
+<to>https://proceedings.mlr.press/v267/lu25u.html</to>
+<name>LBI-FL</name>
+<to>https://proceedings.mlr.press/v267/ding25e.html</to>	
+</links>
+</entry>
+
+<entry>
+<time>2025.06</time>
+<event>A trajectory prediction model is published in Transportation Research Record Journal. </event>
+<links>
+<name>trajectory prediction model</name>
+<to>https://doi.org/10.1177/03611981251335883</to>
 </links>
 </entry>
 	
