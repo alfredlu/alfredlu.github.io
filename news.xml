@@ -11,6 +11,20 @@
 </entry>
 
 <entry>
+<time>2026.06</time>
+<event>My lovely son won his first AI reward as 2nd prize in a UNESCO AI competition.</event>
+<links>
+</links>
+</entry>
+
+<entry>
+<time>2026.05</time>
+<event>My lovely son won his first competitive gold medal in life in a district-level competition for primary and middle school students.</event>
+<links>
+</links>
+</entry>	
+
+<entry>
 <time>2026.02</time>
 <event>An dify application is created to demo ReAct and chat with table, just for fun. And a wechat official account is opened along with a miniprogram (check title info), to share my insight and provide all kinds of service. </event>
 <links>
@@ -23,7 +37,7 @@
 	
 <entry>
 <time>2025.12</time>
-<event>We recently published several paper related to LLM and agent. eg. one called Neural-Symbolic Information Retrieval, enrish RAG with FOL, and another termed as AgentPO, designed for Multi-Agent Systems (MAS).</event>
+<event>We recently get several LLM related paper published or accepted in top-rank conference. eg. one called Neural-Symbolic Information Retrieval, enrish RAG with FOL, and another termed as AgentPO, designed for Multi-Agent Systems (MAS).</event>
 <links>
 <name>Neural-Symbolic Information Retrieval</name>
 <to>https://arxiv.org/pdf/2505.22299</to>
@@ -33,8 +47,8 @@
 </entry>
 
 <entry>
-<time>2025.12</time>
-<event>Several federated learning paper (FedSMU, LBI-FL) are accepted by ICML'25. </event>
+<time>2025.07</time>
+<event>Several federated learning paper (FedSMU, LBI-FL) are reported in ICML'25.</event>
 <links>
 <name>FedSMU</name>
 <to>https://proceedings.mlr.press/v267/lu25u.html</to>
@@ -54,7 +68,7 @@
 	
 <entry>
 <time>2024.09</time>
-<event>two research paper about federated learning is published. One in JAuto, accelerating the training and improving the performance in trajectory prediction. Another in Euro-par 2024, addressing the long-tail issue in federated classification.</event>
+<event>Two research paper about federated learning is published. One in JAuto, accelerating the training and improving the performance in trajectory prediction. Another in Euro-par 2024, addressing the long-tail issue in federated classification.</event>
 <links>
 <name>One</name>
 <to>https://doi.org/10.1177/09544070241272761 </to>
@@ -65,7 +79,7 @@
 
 <entry>
 <time>2024.06</time>
-<event>we present our research paper on intelligent vehicle symposium 2024, bringing forward a safe reinforcement learning policy for cutting-in scenarios in ACC.</event>
+<event>We present our research paper on intelligent vehicle symposium 2024, bringing forward a safe reinforcement learning policy for cutting-in scenarios in ACC.</event>
 <links>
 <name>paper</name>
 <to>https://doi.org/10.1109/iv55156.2024.10588462</to>
@@ -77,7 +91,7 @@
 
 <entry>
 <time>2023.03</time>
-<event>a paper is accepted by 57th CISS, predicting location of cellphone by BLE signal for a keyless entry in vehicle.</event>
+<event>A paper is accepted by 57th CISS, predicting location of cellphone by BLE signal for a keyless entry in vehicle.</event>
 <links>
 <name>paper</name>
 <to> https://doi.org/10.1109/ciss56502.2023.10089682</to>
@@ -86,12 +100,12 @@
 
 <entry>
 <time>2022.07</time>
-<event>a paper is accepted by IJCNN, adversarial learning a deep network for intrusion detection.</event>
+<event>A paper is accepted by IJCNN, adversarial learning a deep network for intrusion detection.</event>
 </entry>
 
 <entry>
 <time>2022.03</time> 
-<event>away passed our lovely pet cat in outbreak of COVID-19 in Shanghai.</event>
+<event>Away passed our lovely pet cat in outbreak of COVID-19 in Shanghai.</event>
 </entry>
 
 <entry>
@@ -101,12 +115,12 @@
 
 <entry>
 <time>2021.09</time> 
-<event>start my another role in UAES XE BU as senior manager</event>
+<event>Start my another role in UAES XE BU as senior manager</event>
 </entry>
 
 <entry>
 <time>2021.08</time> 
-<event>away passed my grandma</event>
+<event>Away passed my grandma</event>
 </entry>
 
 <entry>
@@ -116,7 +130,7 @@
 
 <entry>
 <time>2020.01</time>
-<event>a paper about predicting MSI status from pathlogic image is accepted by ISBI2020</event>
+<event>A paper about predicting MSI status from pathlogic image is accepted by ISBI2020</event>
 <links>
 <name>MSI</name>
 <to>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3423729/</to>
@@ -127,7 +141,7 @@
 
 <entry>
 <time>2019.12</time>
-<event>a paper about a new network pruning method is accepted by ICMLC2020</event>
+<event>A paper about a new network pruning method is accepted by ICMLC2020</event>
 <links>
 <name>ICMLC2020</name>
 <to>http://www.icmlc.org/</to>
@@ -136,7 +150,7 @@
 
 <entry>
 <time>2019.09</time>
-<event>a paper about a new boundary constraint loss for semantic segmentation is accepted by JMIHI</event>
+<event>A paper about a new boundary constraint loss for semantic segmentation is accepted by JMIHI</event>
 <links>
 <name>paper</name>
 <to>http://alfredlu.users.sourceforge.net/doc/Lu2019-BCLoss.pdf</to>
@@ -147,27 +161,27 @@
 
 <entry>
 <time>2019.08</time>
-<event>join UAES as chief AI scientist</event> 
+<event>Join UAES as chief AI scientist</event> 
 </entry>
 
 <entry>
 <time>2018.09</time>
-<event>join Tencent AI Lab</event> 
+<event>Join Tencent AI Lab</event> 
 </entry>
 
 <entry>
 <time>2018.09</time> 
-<event>leave GE Digital</event>
+<event>Leave GE Digital</event>
 </entry>
 	
 <entry>
 <time>2018.09</time> 
-<event>on Sept.7th, finally born were my lovely son!</event>
+<event>On Sept.7th, finally born were my lovely son!</event>
 </entry>
 	
 <entry>
 <time>2018.05</time> 
-<event>a paper about annotation arrhythmia for ECG cloud by deep network is accept by CIT2018.</event>
+<event>A paper about annotation arrhythmia for ECG cloud by deep network is accept by CIT2018.</event>
 <links>
 <name>paper</name>
 <to>https://arxiv.org/pdf/1806.07715.pdf</to>
@@ -178,12 +192,12 @@
 	
 <entry>
 <time>2017.05</time> 
-<event>start working in GE Digital as staff data scientist.</event>
+<event>Start working in GE Digital as staff data scientist.</event>
 </entry>
 
 <entry>
 <time>2016.09</time> 
-<event>a paper about microcalcification twinkling in B-Flow U/S mode is accept by JOMU.</event>
+<event>A paper about microcalcification twinkling in B-Flow U/S mode is accept by JOMU.</event>
 <links>
 <name>paper</name>
 <to>http://alfredlu.users.sourceforge.net/doc/Dominant.factor.analysis.of.B-flow.twinkling.sign.with.phantom.and.simulation.data.pdf</to>
@@ -194,7 +208,7 @@
 
 <entry>
 <time>2015.09</time> 
-<event>a paper about ultrasonic pulse compression in downhole drilling is accept by CIT2015.</event>
+<event>A paper about ultrasonic pulse compression in downhole drilling is accept by CIT2015.</event>
 <links>
 <name>paper</name>
 <to>http://alfredlu.users.sourceforge.net/doc/Method.to.Develop.Coded.Excitation.for.Velocimetry.in.Downhole.Drilling.pdf</to>
@@ -205,7 +219,7 @@
 
 <entry>
 <time>2015.08</time> 
-<event>get the Data Science Specialization Certification from Johns Hopkins University. This specialization includes 9 courses and a capstone project, which takes me about a whole year.</event>
+<event>Get the Data Science Specialization Certification from Johns Hopkins University. This specialization includes 9 courses and a capstone project, which takes me about a whole year.</event>
 <links>
 <name>Certification</name>
 <to>https://www.coursera.org/account/accomplishments/specialization/2REUCNNAR244</to>
@@ -214,66 +228,66 @@
 
 <entry>
 <time>2014.12</time>
-<event>get married</event>
+<event>Get married</event>
 <links>
-<name>get married</name>
+<name>married</name>
 <to>http://alfredlu.users.sourceforge.net/familygallery.html</to>
 </links>
 </entry>
 
 <entry>
 <time>2013.05</time>
-<event>purchase a Ford Focus ST 1.6MT</event> 
+<event>Purchase a Ford Focus ST 1.6MT</event> 
 </entry>
 
 <entry>
 <time>2012.12</time>
-<event>create a app in google app engine to generate the RSS feed of Sina Weibo</event> 
+<event>Create a app in google app engine to generate the RSS feed of Sina Weibo</event> 
 </entry>
 
 <entry>
 <time>2012.12</time>
-<event>finish GB project and is certified as a GB of 6Sigma</event> 
+<event>Finish GB project and is certified as a GB of 6Sigma</event> 
 </entry>
 
 <entry>
 <time>2012.12</time>
-<event>get my driver license</event> 
+<event>Get my driver license</event> 
 </entry>
 
 <entry>
 <time>2012.10</time>
-<event>pass all exams of the GB of 6Sigma</event> 
+<event>Pass all exams of the GB of 6Sigma</event> 
 </entry>
 
 <entry>
 <time>2012.09</time>
-<event>add RSS feed to my home site</event> 
+<event>Add RSS feed to my home site</event> 
 </entry>
 
 <entry>
 <time>2012.05</time>
-<event>join GE Global Research as a lead engineer</event> 
+<event>Join GE Global Research as a lead engineer</event> 
 </entry>
 
 <entry>
 <time>2012.05</time>
-<event>leave Philips Research Asia</event> 
+<event>Leave Philips Research Asia</event> 
 </entry>
 
 <entry>
 <time>2011.10</time> 
-<event>moved into my new apartment.</event>
+<event>Moved into my new apartment.</event>
 </entry>
 
 <entry>
 <time>2011.10</time> 
-<event>away passed my maternal grandpa</event>
+<event>Away passed my maternal grandpa</event>
 </entry>
 
 <entry>
 <time>2011.09</time>
-<event>get my second Ph.D. degree in computer science from school of computer science and engineering, Aizu University, Japan.</event>
+<event>Get my second Ph.D. degree in computer science from school of computer science and engineering, Aizu University, Japan.</event>
 <links>
 <name>Aizu University</name>
 <to>http://www.u-aizu.ac.jp</to>
@@ -282,7 +296,7 @@
 
 <entry>
 <time>2011.03</time> 
-<event>a publication about the cardiac computational model and electrophysiological study conducted on this model is accept by Adv Eng Soft.. The source files used in this paper is in cardiacsimu project.</event>
+<event>A publication about the cardiac computational model and electrophysiological study conducted on this model is accept by Adv Eng Soft.. The source files used in this paper is in cardiacsimu project.</event>
 <links>
 <name>Adv Eng Soft.</name>
 <to>http://www.elsevier.com/wps/find/journaldescription.cws_home/422911/description#description</to>
@@ -293,39 +307,39 @@
 
 <entry>
 <time>2011.03</time> 
-<event>cardiacsimu v0.03 is released as well as the configuration files for simulation reentry.</event>
+<event>Cardiacsimu v0.03 is released as well as the configuration files for simulation reentry.</event>
 <links>
-<name>cardiacsimu</name>
+<name>Cardiacsimu</name>
 <to>http://cardiacsimu.sourceforge.net</to>
 </links>
 </entry>
 
 <entry>
 <time>2010.11</time> 
-<event>cardiacsimu v0.02 is released with some configuration files for simulation.</event>
+<event>Cardiacsimu v0.02 is released with some configuration files for simulation.</event>
 <links>
-<name>cardiacsimu</name>
+<name>Cardiacsimu</name>
 <to>http://cardiacsimu.sourceforge.net</to>
 </links>
 </entry>
 
 <entry>
 <time>2010.09</time> 
-<event>start working in Philips Research Asia as a scientist in healthcare department.</event>
+<event>Start working in Philips Research Asia as a scientist in healthcare department.</event>
 </entry>
 
 <entry>
 <time>2010.07</time> 
-<event>cardiacsimu v0.01 is released.</event>
+<event>Cardiacsimu v0.01 is released.</event>
 <links>
-<name>cardiacsimu</name>
+<name>Cardiacsimu</name>
 <to>http://cardiacsimu.sourceforge.net</to>
 </links>
 </entry>
 
 <entry>
 <time>2010.04</time> 
-<event>become a member of WOSH project.</event>
+<event>Become a member of WOSH project.</event>
 <links>
 <name>WOSH</name>
 <to>http://wosh.sourceforge.net</to>
@@ -334,7 +348,7 @@
 
 <entry>
 <time>2010.02</time> 
-<event>a publication about interpolation of epicardial mapping data on 3D atrium model is accepted by Comput Biol Med.. The source files used in this paper is in cardiac map suite project.</event>
+<event>A publication about interpolation of epicardial mapping data on 3D atrium model is accepted by Comput Biol Med.. The source files used in this paper is in cardiac map suite project.</event>
 <links>
 <name>Comput Biol Med.</name>
 <to>http://www.elsevier.com/wps/find/journaldescription.cws_home/351/description#description</to>
@@ -345,25 +359,25 @@
 
 <entry>
 <time>2010.02</time> 
-<event>cardiacmap v2.00 is released. Within this version, the new interpolation method is released.</event>
+<event>Cardiacmap v2.00 is released. Within this version, the new interpolation method is released.</event>
 <links>
-<name>cardiacmap</name>
+<name>Cardiacmap</name>
 <to>http://cardiacmap.sourceforge.net</to>
 </links>
 </entry>
 
 <entry>
 <time>2009.07</time> 
-<event>cardiacmap v1.00 is released. This version is used in animal experiments for several times.</event>
+<event>Cardiacmap v1.00 is released. This version is used in animal experiments for several times.</event>
 <links>
-<name>cardiacmap</name>
+<name>Cardiacmap</name>
 <to>http://cardiacmap.sourceforge.net</to>
 </links>
 </entry>
 
 <entry>
 <time>2009.06</time> 
-<event>get my first Ph.D. degree in biomedical enginnering from department of E.E., school of information science and technology, Fudan University, China.</event>
+<event>Get my first Ph.D. degree in biomedical enginnering from department of E.E., school of information science and technology, Fudan University, China.</event>
 <links>
 <name>Fudan University</name>
 <to>http://www.fudan.edu.cn</to>
@@ -372,12 +386,12 @@
 
 <entry>
 <time>2008.10</time> 
-<event>away passed my maternal grandma.</event>
+<event>Away passed my maternal grandma.</event>
 </entry>
 
 <entry>
 <time>2008.04</time> 
-<event>enroll into the Ph.D. program in Aizu University, this is a dual diploma program with Fudan University.</event>
+<event>Enroll into the Ph.D. program in Aizu University, this is a dual diploma program with Fudan University.</event>
 <links>
 <name>Aizu University</name>
 <to>http://www.u-aizu.ac.jp</to>
@@ -388,17 +402,17 @@
 
 <entry>
 <time>2006.09</time> 
-<event>fulfill the master program earlier and change into the Ph.D. program.</event>
+<event>Fulfill the master program earlier and change into the Ph.D. program.</event>
 </entry>
 
 <entry>
 <time>2005.12</time> 
-<event>start a very serious relationship.</event>
+<event>Start a very serious relationship.</event>
 </entry>
 
 <entry>
 <time>2004.09</time> 
-<event>enroll into the master program in Fudan University.</event>
+<event>Enroll into the master program in Fudan University.</event>
 <links>
 <name>Fudan University</name>
 <to>http://www.fudan.edu.cn</to>
@@ -407,7 +421,7 @@
 
 <entry>
 <time>2003.09</time> 
-<event>start my career in Baokang Control Engineering Ltd., Shanghai, China.</event>
+<event>Start my career in Baokang Control Engineering Ltd., Shanghai, China.</event>
 <links>
 <name>Baokang Control Engineering Ltd</name>
 <to>http://www.shbaokang.com/</to>
@@ -416,7 +430,7 @@
 
 <entry>
 <time>2003.07</time> 
-<event>graduate from Nanjing University of Science and Technology.</event>
+<event>Graduate from Nanjing University of Science and Technology.</event>
 <links>
 <name>Nanjing University of Science and Technology</name>
 <to>http://www.njust.edu.cn/</to>
